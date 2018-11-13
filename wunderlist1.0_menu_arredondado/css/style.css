@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.container-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg,white,#ddd);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.box{
+    width: 320px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0.5px 0.5px 10px #dfe3e6;
+    border-radius: 23px;
+}
+
+    
+}
+
+
+fieldset{
+    border: none;
+    padding: 0px;
+}
+
+fieldset section{
+    padding: 10px;
+    text-align: center;
+}
+
+fieldset section label{
+    color: gray;
+    display: block;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+fieldset section input{
+    font-size: 15px;
+    width: 100%;
+    padding: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    border-color: red;
+    border-bottom: thin  #ddd solid;
+    background-color: #F0F0F0;
+}
+
+
+
+fieldset section button{
+    font-size: 14px;
+    color: #ddd;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: coral;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+
+}
+
+h1{
+    padding-top: 15px;
+    font-size: 30px;
+    color: coral;
+    text-shadow: 1px 1px 1px #ddd;
+    text-align: center;
+    font-weight: 400;
+}
+
+h2{
+    text-decoration-style: none;
+    text-align: center;
+    font-size: 11px;
+}
+
+h6{
+    margin: 0px;
+}
+
+a{
+    color: coral;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: coral;
+    
+}
+
+
+/*cad style*/
+
+.box-cad{
+    width: 600px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0.5px 0.5px 10px gray;
+    
+}
+
+#button-save{
+    color: #ddd;
+    padding: 5px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: coral;
+}
+
+
+#button-close{
+    color: #ddd;
+    border: none;
+    padding: 5px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: coral;
+}
+
+
+
